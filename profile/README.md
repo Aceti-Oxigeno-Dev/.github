@@ -1,5 +1,10 @@
 # Aceti-Oxigeno, S.A. — Departamento de Cómputo
 
+![Organización](https://img.shields.io/badge/Organizaci%C3%B3n-Aceti--Oxigeno%2C%20S.A.-0C447C?style=flat)
+![Ubicación](https://img.shields.io/badge/Ubicaci%C3%B3n-Panam%C3%A1-3B6D11?style=flat)
+![Migración](https://img.shields.io/badge/Migraci%C3%B3n-En%20progreso-BA7517?style=flat)
+![Equipo](https://img.shields.io/badge/Equipo-4%20integrantes-534AB7?style=flat)
+
 > Centro de código y documentación técnica del departamento. Aquí centralizamos todos los sistemas, estándares y responsables del área.
 
 ---
@@ -8,37 +13,37 @@
 
 | Repositorio | Tecnología | Estado | Descripción | Responsable |
 | :--- | :--- | :--- | :--- | :--- |
-| [informe-diario-caja](../../informe-diario-caja) | Java · Spring Boot |  Migrado | Reporte diario del cierre de caja | Christian Navarro |
-| _Próximo sistema_ | Por definir |  Disponible | — | — |
-| _Próximo sistema_ | Por definir |  Disponible | — | — |
+| [informe-diario-caja](../../informe-diario-caja) | ![Java](https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white) | ![Migrado](https://img.shields.io/badge/Migrado-27500A?style=flat) | Reporte diario del cierre de caja | Por asignar |
+| _Próximo sistema_ | — | ![Disponible](https://img.shields.io/badge/Disponible-888780?style=flat) | — | — |
+| _Próximo sistema_ | — | ![Disponible](https://img.shields.io/badge/Disponible-888780?style=flat) | — | — |
 
 ---
 
 ## Sistemas pendientes de migrar a repositorio
 
-Los siguientes sistemas están en uso pero aún no cuentan con repositorio ni documentación formal. La prioridad es ir incorporándolos uno a uno.
+Los siguientes sistemas están en uso pero aún no cuentan con repositorio ni documentación formal. La prioridad es ir incorporándolos uno a uno conforme se vayan documentando.
 
 | Sistema | Área | Tecnología | Prioridad |
 | :--- | :--- | :--- | :--- |
-| Sistema 1 | Por identificar | Por identificar | Alta |
-| Sistema 2 | Por identificar | Por identificar | Alta |
-| Sistema 3 | Por identificar | Por identificar | Media |
-| Sistema 4 | Por identificar | Por identificar | Media |
-| Sistema 5 | Por identificar | Por identificar | Baja |
+| Sistema 1 | Por identificar | Por identificar | ![Alta](https://img.shields.io/badge/Alta-A32D2D?style=flat) |
+| Sistema 2 | Por identificar | Por identificar | ![Alta](https://img.shields.io/badge/Alta-A32D2D?style=flat) |
+| Sistema 3 | Por identificar | Por identificar | ![Media](https://img.shields.io/badge/Media-BA7517?style=flat) |
+| Sistema 4 | Por identificar | Por identificar | ![Media](https://img.shields.io/badge/Media-BA7517?style=flat) |
+| Sistema 5 | Por identificar | Por identificar | ![Baja](https://img.shields.io/badge/Baja-3B6D11?style=flat) |
 | _+ Agregar_ | — | — | — |
 
-> **Proceso recomendado:** Al migrar cada sistema, completar la tabla de arriba con su repositorio y llenar el `README.md` correspondiente usando el template de estándares.
+> **Proceso recomendado:** Al migrar cada sistema, completar su fila en la tabla de arriba con el enlace al repositorio y llenar su `README.md` usando el template de estándares de abajo.
 
 ---
 
 ## Equipo
 
-| Rol | Nombre | Responsabilidades principales |
+| Rol | Nombre | Responsabilidades |
 | :--- | :--- | :--- |
-| Jefe de Cómputo | Por definir | Coordinación general, decisiones técnicas, priorización de migraciones |
-| Soporte Técnico | Por definir | Infraestructura, servidores, resolución de incidencias |
-| Programador | Por definir | Desarrollo, mantenimiento y documentación de sistemas |
-| Digitalizador | Por definir | Gestión de datos, digitalización de procesos y documentos |
+| ![Jefe](https://img.shields.io/badge/Jefe%20de%20C%C3%B3mputo-0C447C?style=flat) | Por definir | Coordinación general, decisiones técnicas, priorización de migraciones |
+| ![Soporte](https://img.shields.io/badge/Soporte%20T%C3%A9cnico-085041?style=flat) | Por definir | Infraestructura, servidores, resolución de incidencias |
+| ![Programador](https://img.shields.io/badge/Programador-3C3489?style=flat) | Por definir | Desarrollo, mantenimiento y documentación de sistemas |
+| ![Digitalizador](https://img.shields.io/badge/Digitalizador-633806?style=flat) | Por definir | Gestión de datos, digitalización de procesos y documentos |
 
 ---
 
@@ -53,7 +58,7 @@ Todo repositorio creado en esta organización **debe** incluir en su `README.md`
 5. **Cómo levantar el ambiente local** — requisitos previos y comandos paso a paso.
 6. **Responsable y fecha** — nombre del responsable técnico y fecha de última actualización del README.
 
-### Template rápido para nuevos repositorios
+### Template para nuevos repositorios
 
 ```markdown
 # Nombre del Sistema
@@ -66,22 +71,24 @@ Descripción breve de qué hace y para qué área sirve.
 
 ## Configuración
 Copiar `.env.example` a `.env` y completar los valores:
-```env
+
+\`\`\`env
 DB_HOST=
 DB_PORT=
 DB_NAME=
 DB_USER=
 DB_PASS=
-```
+\`\`\`
 
 ## Cómo ejecutar localmente
-```bash
+
+\`\`\`bash
 # Instalar dependencias
 ...
 
 # Iniciar la aplicación
 ...
-```
+\`\`\`
 
 ## Servidor de producción
 - **IP / Host:** `000.000.0.0`
@@ -97,15 +104,20 @@ DB_PASS=
 
 ## Convenciones de nombres de repositorios
 
-Para mantener consistencia, todos los repositorios deben seguir el formato:
+Todos los repositorios deben seguir el formato en minúsculas con guiones:
 
 ```
 nombre-descriptivo-del-sistema
 ```
 
-Ejemplos correctos: `informe-diario-caja`, `control-inventario`, `api-facturacion`  
-Ejemplos incorrectos: `SistemaVentas`, `sistema_ventas_v2_FINAL`
+| Correcto | Incorrecto |
+| :--- | :--- |
+| `informe-diario-caja` | `InformeDiarioCaja` |
+| `control-inventario` | `sistema_inventario_v2` |
+| `api-facturacion` | `APIFacturacion_FINAL` |
 
 ---
 
-*Departamento de Cómputo · Aceti-Oxigeno, S.A. · Actualizado: Abril 2026*
+![Última actualización](https://img.shields.io/badge/Última%20actualización-Abril%202026-D3D1C7?style=flat)
+
+*Departamento de Cómputo · Aceti-Oxigeno, S.A. · Panamá*
