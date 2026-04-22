@@ -13,7 +13,7 @@
 
 | Repositorio | Tecnología | Estado | Descripción | Responsable |
 | :--- | :--- | :--- | :--- | :--- |
-| [informe-diario-caja](../../informe-diario-caja) | ![Java](https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white) | ![Migrado](https://img.shields.io/badge/Migrado-27500A?style=flat) | Reporte diario del cierre de caja | Por asignar |
+| [informe-diario-caja](../../informe-diario-caja) | ![Java](https://img.shields.io/badge/Java-Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white) | ![Migrado](https://img.shields.io/badge/Migrado-27500A?style=flat) | Reporte diario del cierre de caja | Christian Navarro |
 | _Próximo sistema_ | — | ![Disponible](https://img.shields.io/badge/Disponible-888780?style=flat) | — | — |
 | _Próximo sistema_ | — | ![Disponible](https://img.shields.io/badge/Disponible-888780?style=flat) | — | — |
 
